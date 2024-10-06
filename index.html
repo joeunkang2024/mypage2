@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>앙꼬의 초대장</title>
+    <style>
+        * {
+            font-family: 'IBM Plex Sans KR', sans-serif;
+        }
+        body, h1, h2, h3, p, a {
+            font-size: 16px;
+            margin: 0px;
+            padding: 0px;
+            text-decoration: none;
+            font-weight: normal;
+        }
+        .wrap {
+            width: 350px;
+            margin: auto;
+        }
+        .wrap > h1 {
+            padding: 16px;
+            color: #ffffff;
+            background-color: pink;
+            font-weight: 500;
+        }
+        .pic {
+            color: pink;
+            letter-spacing: 5px;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            width: 250px;
+
+        }
+        .pic > img {
+            width: 300px;
+            border: 5px solid pink;
+            margin: 10px;
+        }
+        .name {
+            color: pink;
+            text-align: center;
+
+            font-size: 24px;
+            font-weight: 500;
+            border-top: 1px solid pink;
+            border-bottom: 1px solid pink;
+           
+            width: 200px;
+            margin: auto;
+        }
+        .main {
+            background-color: pink;
+            color: white;
+
+            margin-top: 30px;
+            margin-bottom: 30px;
+            padding: 20px;
+
+        }
+        .title {
+            font-size: 20px;
+            text-align: center;
+        }
+        .msg {
+            line-height: 30px;
+
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        .place {
+            text-align: center;
+        }
+        .bottom {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .bottom > p {
+            color: pink;
+            font-weight: 500;
+
+            margin-bottom: 10px;
+        }
+        .bottom > input {
+            width: 250px;
+            margin-bottom: 10px;
+        }
+        .bottom > textarea {
+            width: 250px;
+            height: 100px;
+            margin-bottom: 10px;
+        }
+        .bottom > button {
+            width: 150px;
+            height: 40px;
+
+            background-color: pink;
+            color: white;
+            border: none;
+            border-radius: 8px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <h1>앙꼬의 파티에 초대합니다</h1>
+        <div class="pic">
+            <h2>Come with me</h2>
+            <img src="JE000197.JPG">
+            <span>12.32.SOMEDAY.12:30AM</span>
+        </div>
+        <div class="name">
+            <span>앙꼬의 초대장</span>
+        </div>
+        <div class="main">
+            <p class="title">INVITATION</p>
+            <p class="msg">
+                이 초대장을 보고 있는 너!<br/>
+                축하한다.<br/>
+                너는 내 파티에 초대되었다.<br/>
+                몸만 와도 되지만<br/>
+                츄르를 갖고와도 거절하지 않겠다.<br/>
+                하지만 난 템테이션을 더 좋아하니<br/>
+                잊지말라구. <br/>
+                모쪼록 와준다면 내가 고맙겠다. 냥.
+            </p>
+            <p class="place">
+                2024. 12. 32. SOM. 12:30AM<br/>
+                망원동 앙꼬네 집
+            </p>
+        </div>
+        <div class="bottom">
+            <p>축하메시지를 남겨주세요</p>
+                <input type="text" placeholder="이름">
+                <textarea placeholder= "메시지를 남겨주세요"></textarea>
+            <button>메시지 남기기</button>
+        </div>
+    </div>
+</body>
+</html>
